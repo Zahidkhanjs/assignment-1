@@ -1,0 +1,238 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* navbar started */
+.nav {
+  display: flex;
+  justify-content: end;
+  margin-right: 60px;
+  gap: 30px;
+  margin-top: 30px;
+  font-size: 1rem;
+  padding: 1rem;
+  background-color: #270082;
+  padding: 30px;
+  margin: 0;
+  gap: 40px;
+  color: wheat;
+}
+
+.tunes {
+  margin-right: 45rem;
+  color: red;
+  font-size: 2rem;
+  font-weight: 900;
+  padding: 1rem;
+  color: white;
+  font-weight: bolder;
+}
+
+.mytune {
+  background-image: url(./image/hero_image.png);
+  width: 100%;
+  height: 130%;
+  background-size: auto;
+  background-position-x: 50%;
+  background-position-y: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+}
+
+.upper-content {
+  color: white;
+  text-align: center;
+}
+
+.upper-content > h1 > h3 > p {
+  color: red;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+/* navbar ended */
+
+/* mainstrt */
+.main {
+  background-color: #281154;
+  width: 100%;
+  height: 200%;
+}
+
+.main > h2 {
+  text-align: center;
+  font-size: 4rem;
+  padding-top: 5rem;
+  color: white;
+}
+
+.main > h3 {
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 5rem;
+  color: white;
+  padding-top: 2rem;
+  font-weight: bolder;
+}
+.main > p {
+  padding: 1rem;
+  font-size: 1.5rem;
+  text-align: center;
+  padding-bottom: 8rem;
+  color: white;
+}
+
+button {
+  background-color: red;
+  padding: 1.5rem;
+  color: white;
+  font-size: 2rem;
+}
+
+.main > h6 {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  padding: 3rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+/* mainend */
+
+/* whitebox started */
+.image-center {
+  margin-top: -20rem;
+}
+
+.white-box > h3 {
+  text-align: center;
+  margin-top: 10rem;
+  font-size: 2.5rem;
+}
+.white-box > p {
+  text-align: center;
+  font-weight: 400;
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  background-color: transparent;
+}
+.btndown {
+  background-color: #281154;
+  color: white;
+  margin-top: 4rem;
+  font-size: small;
+  padding: 1rem;
+  border-radius: 3rem;
+}
+
+/* whitebox ended */
+/* thiredlast started */
+
+.third-last {
+  background-image: url(./image/video.png);
+  background-size: contain;
+  height: 100vh;
+  width: 100wh;
+  background-repeat: no-repeat;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+}
+
+.third-last > h3 {
+  font-size: 30px;
+  text-align: center;
+  width: 100%;
+}
+.third-last > p {
+  font-size: 2rem;
+}
+.text > h2 {
+  text-align: center;
+  margin-top: -15rem;
+  margin-left: 30rem;
+  font-size: 2rem;
+  font-weight: bolder;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.text > p {
+  font-size: 2rem;
+  text-align: center;
+  width: 70rem;
+  padding: 15rem;
+  display: block;
+  align-items: center;
+  margin-top: -12rem;
+  font-size: small;
+  margin-left: 32rem;
+  width: 50rem;
+  color: #99958e;
+}
+
+.text > h6 {
+  font-size: 1rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 300;
+  text-align: center;
+  margin-top: -12rem;
+  margin-left: 30rem;
+}
+
+.red-btn {
+  color: white;
+  background-color: #281154;
+  font-size: 20px;
+  padding: 10px;
+  font-family: "Times New Roman", Times, serif;
+  margin-left: 32rem;
+  margin-top: 2rem;
+}
+
+/* thiredlast ended */
+
+.image-coar {
+  margin-top: 8rem;
+}
+
+/* footer is starteed */
+
+.footer {
+  width: 100%;
+  height: 50%;
+  background-color: #281154;
+  margin-top: 4rem;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 2rem;
+  gap: 4rem;
+  margin-top: 1rem;
+  align-items: center;
+  padding: 30px;
+}
+
+.ulli {
+  color: white;
+  font-size: 50%;
+  text-decoration: none;
+  margin-left: 2rem;
+  list-style: none;
+}
+.end {
+  text-align: center;
+  font-size: 2rem;
+  background-color: #270082;
+  color: white;
+}
+
+/* footeris ended */
